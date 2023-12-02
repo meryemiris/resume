@@ -3,10 +3,10 @@
   "basics": {
     "name": "Meryem İriş",
     "label": "Software Developer",
-    "image": "profilepic.svg",
+    "image": "./profilepic.svg",
     "email": "irismeryem.96@gmail.com",
     "phone": "+90 (534) 297-9720",
-    
+
     "summary": "I'm a Frontend Developer with skills in React, TypeScript, and Next.js, building dynamic web apps. I've recently explored React Native.",
     "location": {
       "address": "",
@@ -34,12 +34,17 @@
     {
       "institution": "Bogazici University",
       "url": "https://bogazici.edu.tr/en-US/Index",
-      "area": "Bachelor of Art",
+      "area": "",
       "studyType": "Bachelor",
       "startDate": "2014-10-17",
       "endDate": "2022-06-01",
       "score": "",
       "courses": []
+    },
+    {
+      "institution": "Udemy",
+
+      "courses": ["....", "bootcamp", "React", "............"]
     }
   ],
   "awards": [],
@@ -48,7 +53,15 @@
     {
       "name": "Web Development",
       "level": "",
-      "keywords": ["HTML", "CSS", "Javascript", "React", "TypeScript", "NextJS", "Redux"]
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "TypeScript",
+        "NextJS",
+        "Redux"
+      ]
     }
   ],
   "languages": [
@@ -77,11 +90,43 @@
       "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
       "url": "https://github.com/meryemiris/shipment-app.git",
       "type": "web-app"
+    },
+    {
+      "name": "Todo App ...",
+      "description": "A web-based tool for TODOS",
+      "highlights": [".............."],
+      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
+      "url": "https://github.com/meryemiris/shipment-app.git",
+      "type": "web-app"
+    },
+    {
+      "name": "Shopping Cart ..........",
+      "description": "A web-based tool for TODOS",
+      "highlights": [".............."],
+      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
+      "url": "https://github.com/meryemiris/shipment-app.git",
+      "type": "web-app"
+    },
+    {
+      "name": "..............",
+      "description": "A web-based tool for TODOS",
+      "highlights": [".............."],
+      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
+      "url": "https://github.com/meryemiris/shipment-app.git",
+      "type": "web-app"
     }
   ],
   "meta": {
     "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
- 
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "themeOptions": {
+      "colors": {
+        "background": ["#191e23"],
+        "dimmed": ["#23282d"],
+        "primary": ["#fbfbfc"],
+        "secondary": ["#ccd0d4"],
+        "accent": ["#00a0d2"]
+      }
+    }
   }
 }
