@@ -1,0 +1,87 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Meryem İriş",
+    "label": "Software Developer",
+    "image": "profilepic.svg",
+    "email": "irismeryem.96@gmail.com",
+    "phone": "+90 (534) 297-9720",
+    
+    "summary": "I'm a Frontend Developer with skills in React, TypeScript, and Next.js, building dynamic web apps. I've recently explored React Native.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "İstanbul",
+      "countryCode": "",
+      "region": "Turkey"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "meryemiris",
+        "url": "https://www.linkedin.com/in/meryemiris/"
+      },
+      {
+        "network": "GitHub",
+        "username": "meryemiris",
+        "url": "https://www.github.com/meryemiris/"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Bogazici University",
+      "url": "https://bogazici.edu.tr/en-US/Index",
+      "area": "Bachelor of Art",
+      "studyType": "Bachelor",
+      "startDate": "2014-10-17",
+      "endDate": "2022-06-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": ["HTML", "CSS", "Javascript", "React", "TypeScript", "NextJS", "Redux"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Shipment CRUD page",
+      "description": "A web-based tool for efficient management of shipment data.",
+      "highlights": [
+        "Built with React, Redux Toolkit, Chakra UI, and React Router",
+        "User-friendly interface for viewing, editing, and managing shipment details",
+        "Redux Toolkit for state management",
+        "Async data fetching using createAsyncThunk",
+        "React Router for defining routes and navigation"
+      ],
+      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
+      "url": "https://github.com/meryemiris/shipment-app.git",
+      "type": "web-app"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+ 
+  }
+}
