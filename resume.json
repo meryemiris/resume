@@ -78,7 +78,19 @@
   "references": [],
   "projects": [
     {
-      "name": "Shipment CRUD page",
+      "name": "Todo App",
+      "description": "A simple Todo application built with React, Chakra UI, and TypeScript.",
+      "highlights": [
+        "Create, edit, and delete tasks",
+        "Manage todo lists",
+        "Get a random todo suggestion"
+      ],
+      "technologies": ["React", "Chakra UI", "Framer Motion", "TypeScript"],
+      "url": "https://github.com/meryemiris/todo-app.git",
+      "type": "web-app"
+    },
+    {
+      "name": "Shipment CRUD Page",
       "description": "A web-based tool for efficient management of shipment data.",
       "highlights": [
         "Built with React, Redux Toolkit, Chakra UI, and React Router",
@@ -87,30 +99,6 @@
         "Async data fetching using createAsyncThunk",
         "React Router for defining routes and navigation"
       ],
-      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
-      "url": "https://github.com/meryemiris/shipment-app.git",
-      "type": "web-app"
-    },
-    {
-      "name": "Todo App ...",
-      "description": "A web-based tool for TODOS",
-      "highlights": [".............."],
-      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
-      "url": "https://github.com/meryemiris/shipment-app.git",
-      "type": "web-app"
-    },
-    {
-      "name": "Shopping Cart ..........",
-      "description": "A web-based tool for TODOS",
-      "highlights": [".............."],
-      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
-      "url": "https://github.com/meryemiris/shipment-app.git",
-      "type": "web-app"
-    },
-    {
-      "name": "..............",
-      "description": "A web-based tool for TODOS",
-      "highlights": [".............."],
       "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
       "url": "https://github.com/meryemiris/shipment-app.git",
       "type": "web-app"
