@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "resume serve --theme eloquent-mod --resume resume.json",
+    "serve": "resume serve --theme even --resume resume.json",
     "export": "resume export resume.html --format html --theme even"
   },
   "author": "Meryem Iris",

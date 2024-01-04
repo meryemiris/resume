@@ -3,7 +3,6 @@
   "basics": {
     "name": "Meryem İriş",
     "label": "Software Developer",
-    "image": "./profilepic.svg",
     "email": "irismeryem.96@gmail.com",
     "phone": "+90 (534) 297-9720",
 
@@ -33,9 +32,9 @@
   "education": [
     {
       "institution": "Bogazici University",
-      "url": "https://bogazici.edu.tr/en-US/Index",
+
       "area": "",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of Art",
       "startDate": "2014-10-17",
       "endDate": "2022-06-01",
       "score": "",
@@ -44,7 +43,11 @@
     {
       "institution": "Udemy",
 
-      "courses": ["....", "bootcamp", "React", "............"]
+      "courses": [
+        "The Web Developer Bootcamp ",
+        "React - The Complete Guide 2023 (incl. React Router & Redux)",
+        "git and GitHub- Practical Guide"
+      ]
     }
   ],
   "awards": [],
@@ -85,8 +88,8 @@
         "Manage todo lists",
         "Get a random todo suggestion"
       ],
-      "technologies": ["React", "Chakra UI", "Framer Motion", "TypeScript"],
-      "url": "https://github.com/meryemiris/todo-app.git",
+      "keywords": ["React", "Chakra UI", "Framer Motion", "TypeScript"],
+      "url": "https://todo-app-sage-nine.vercel.app/",
       "type": "web-app"
     },
     {
@@ -100,7 +103,7 @@
         "React Router for defining routes and navigation"
       ],
       "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
-      "url": "https://github.com/meryemiris/shipment-app.git",
+      "url": "https://shipment-app-olive.vercel.app/",
       "type": "web-app"
     }
   ],
