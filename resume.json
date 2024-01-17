@@ -81,15 +81,18 @@
   "references": [],
   "projects": [
     {
-      "name": "Todo App",
-      "description": "A simple Todo application built with React, Chakra UI, and TypeScript.",
+      "name": "Flight Search App",
+      "description": "A simple Flight Search App built with Next.js, React, and TypeScript.",
       "highlights": [
-        "Create, edit, and delete tasks",
-        "Manage todo lists",
-        "Get a random todo suggestion"
+        "Search flight based on for departure, arrival, and dates.",
+        "Select options for airports.",
+        "Sort flights by price, duration, departure, and arrival.",
+
+        "-Sample Search Data: departureAirport: Amsterdam, arrivalAirport: Frankfurt, departureTime: 12.12.2024, returnTime: 12.12.2024"
       ],
-      "keywords": ["React", "Chakra UI", "Framer Motion", "TypeScript"],
-      "url": "https://todo-app-sage-nine.vercel.app/",
+
+      "keywords": ["Next.js", "React", "TypeScript", "React Select"],
+      "url": "https://flight-search-app-ten.vercel.app/",
       "type": "web-app"
     },
     {
@@ -104,6 +107,18 @@
       ],
       "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
       "url": "https://shipment-app-olive.vercel.app/",
+      "type": "web-app"
+    },
+    {
+      "name": "Todo App",
+      "description": "A simple Todo application built with React, Chakra UI, and TypeScript.",
+      "highlights": [
+        "Create, edit, and delete tasks",
+        "Manage todo lists",
+        "Get a random todo suggestion"
+      ],
+      "keywords": ["React", "Chakra UI", "TypeScript"],
+      "url": "https://todo-app-sage-nine.vercel.app/",
       "type": "web-app"
     }
   ],
