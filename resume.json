@@ -1,138 +1,140 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Meryem İriş",
-    "label": "Software Developer",
-    "email": "irismeryem.96@gmail.com",
-    "phone": "+90 (534) 297-9720",
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"basics": {
+		"name": "Meryem İriş",
+		"label": "Software Developer",
+		"email": "irismeryem.96@gmail.com",
+		"phone": "+90 (534) 297-9720",
 
-    "summary": "I'm a Frontend Developer with skills in React, TypeScript, and Next.js, building dynamic web apps. I've recently explored React Native.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "İstanbul",
-      "countryCode": "",
-      "region": "Turkey"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "meryemiris",
-        "url": "https://www.linkedin.com/in/meryemiris/"
-      },
-      {
-        "network": "GitHub",
-        "username": "meryemiris",
-        "url": "https://www.github.com/meryemiris/"
-      }
-    ]
-  },
-  "work": [],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Bogazici University",
+		"summary": "I'm a Frontend Developer with skills in React, TypeScript, and Next.js, building dynamic web apps. I've recently explored React Native.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "İstanbul",
+			"countryCode": "",
+			"region": "Turkey"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "meryemiris",
+				"url": "https://www.linkedin.com/in/meryemiris/"
+			},
+			{
+				"network": "GitHub",
+				"username": "meryemiris",
+				"url": "https://www.github.com/meryemiris/"
+			}
+		]
+	},
+	"work": [],
+	"volunteer": [],
+	"education": [
+		{
+			"institution": "Bogazici University",
 
-      "area": "",
-      "studyType": "Bachelor of Art",
-      "startDate": "2014-10-17",
-      "endDate": "2022-06-01",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Udemy",
+			"area": "",
+			"studyType": "Bachelor of Art",
+			"startDate": "2014-10-17",
+			"endDate": "2022-06-01",
+			"score": "",
+			"courses": []
+		},
+		{
+			"institution": "Udemy",
 
-      "courses": [
-        "The Web Developer Bootcamp ",
-        "React - The Complete Guide 2023 (incl. React Router & Redux)",
-        "git and GitHub- Practical Guide"
-      ]
-    }
-  ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React",
-        "TypeScript",
-        "NextJS",
-        "Redux"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Turkish",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Advanced"
-    }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": [
-    {
-      "name": "Flight Search App",
-      "description": "A simple Flight Search App built with Next.js, React, and TypeScript.",
-      "highlights": [
-        "Search flight based on for departure, arrival, and dates.",
-        "Select options for airports.",
-        "Sort flights by price, duration, departure, and arrival.",
+			"courses": [
+				"The Web Developer Bootcamp ",
+				"React - The Complete Guide 2023 (incl. React Router & Redux)",
+				"git and GitHub- Practical Guide"
+			]
+		}
+	],
+	"awards": [],
+	"publications": [],
+	"skills": [
+		{
+			"name": "Web Development",
+			"level": "",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"Javascript",
+				"React",
+				"VueJS",
+				"NextJS",
+				"TypeScript",
+				"React Native",
+				"Redux"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Turkish",
+			"fluency": "Native"
+		},
+		{
+			"language": "English",
+			"fluency": "Advanced"
+		}
+	],
+	"interests": [],
+	"references": [],
+	"projects": [
+		{
+			"name": "Flight Search App",
+			"description": "A simple Flight Search App built with Next.js, React, and TypeScript.",
+			"highlights": [
+				"Search flight based on for departure, arrival, and dates.",
+				"Select options for airports.",
+				"Sort flights by price, duration, departure, and arrival.",
 
-        "-Sample Search Data: departureAirport: Amsterdam, arrivalAirport: Frankfurt, departureTime: 12.12.2024, returnTime: 12.12.2024"
-      ],
+				"-Sample Search Data: departureAirport: Amsterdam, arrivalAirport: Frankfurt, departureTime: 12.12.2024, returnTime: 12.12.2024"
+			],
 
-      "keywords": ["Next.js", "React", "TypeScript", "React Select"],
-      "url": "https://flight-search-app-ten.vercel.app/",
-      "type": "web-app"
-    },
-    {
-      "name": "Shipment CRUD Page",
-      "description": "A web-based tool for efficient management of shipment data.",
-      "highlights": [
-        "Built with React, Redux Toolkit, Chakra UI, and React Router",
-        "User-friendly interface for viewing, editing, and managing shipment details",
-        "Redux Toolkit for state management",
-        "Async data fetching using createAsyncThunk",
-        "React Router for defining routes and navigation"
-      ],
-      "keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
-      "url": "https://shipment-app-olive.vercel.app/",
-      "type": "web-app"
-    },
-    {
-      "name": "Todo App",
-      "description": "A simple Todo application built with React, Chakra UI, and TypeScript.",
-      "highlights": [
-        "Create, edit, and delete tasks",
-        "Manage todo lists",
-        "Get a random todo suggestion"
-      ],
-      "keywords": ["React", "Chakra UI", "TypeScript"],
-      "url": "https://todo-app-sage-nine.vercel.app/",
-      "type": "web-app"
-    }
-  ],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
-    "themeOptions": {
-      "colors": {
-        "background": ["#191e23"],
-        "dimmed": ["#23282d"],
-        "primary": ["#fbfbfc"],
-        "secondary": ["#ccd0d4"],
-        "accent": ["#00a0d2"]
-      }
-    }
-  }
+			"keywords": ["Next.js", "React", "TypeScript", "React Select"],
+			"url": "https://flight-search-app-ten.vercel.app/",
+			"type": "web-app"
+		},
+		{
+			"name": "Shipment CRUD Page",
+			"description": "A web-based tool for efficient management of shipment data.",
+			"highlights": [
+				"Built with React, Redux Toolkit, Chakra UI, and React Router",
+				"User-friendly interface for viewing, editing, and managing shipment details",
+				"Redux Toolkit for state management",
+				"Async data fetching using createAsyncThunk",
+				"React Router for defining routes and navigation"
+			],
+			"keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
+			"url": "https://shipment-app-olive.vercel.app/",
+			"type": "web-app"
+		},
+		{
+			"name": "Todo App",
+			"description": "A simple Todo application built with React, Chakra UI, and TypeScript.",
+			"highlights": [
+				"Create, edit, and delete tasks",
+				"Manage todo lists",
+				"Get a random todo suggestion"
+			],
+			"keywords": ["React", "Chakra UI", "TypeScript"],
+			"url": "https://todo-app-sage-nine.vercel.app/",
+			"type": "web-app"
+		}
+	],
+	"meta": {
+		"version": "v1.0.0",
+		"canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+		"themeOptions": {
+			"colors": {
+				"background": ["#191e23"],
+				"dimmed": ["#23282d"],
+				"primary": ["#fbfbfc"],
+				"secondary": ["#ccd0d4"],
+				"accent": ["#00a0d2"]
+			}
+		}
+	}
 }
