@@ -6,7 +6,7 @@
 		"email": "irismeryem.96@gmail.com",
 		"phone": "+90 (534) 297-9720",
 
-		"summary": "I'm a Frontend Developer with skills in React, TypeScript, and Next.js, building dynamic web apps. I've recently explored React Native.",
+		"summary": "I'm a Frontend Developer with skills in React(Next.js), Vue.js, and TypeScript, building dynamic web apps. I've recently explored React Native.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -52,23 +52,7 @@
 	],
 	"awards": [],
 	"publications": [],
-	"skills": [
-		{
-			"name": "Web Development",
-			"level": "",
-			"keywords": [
-				"HTML",
-				"CSS",
-				"Javascript",
-				"React",
-				"VueJS",
-				"NextJS",
-				"TypeScript",
-				"React Native",
-				"Redux"
-			]
-		}
-	],
+
 	"languages": [
 		{
 			"language": "Turkish",
@@ -83,45 +67,66 @@
 	"references": [],
 	"projects": [
 		{
+			"name": "Useless Facts Viewer",
+			"description": "A simple single-page application uses Useless Facts API.",
+			"highlights": [
+				"To demonstrate the functionality of the app feel free to sign in or here's an existed user credantials: Email: test@gmail.com Password: test123",
+				"Fact viewer; Fetches random facts from the Useless Facts API using Axios",
+				"User Authentication; Utilizes Supabase Auth for user creation",
+				"Save facts; Fact basket feature; enables users to add both random and today's facts to the basket. Saved facts feature; retrieves facts from the database, permanent storage."
+			],
+
+			"keywords": ["Next.js", "Axios", "Supabase"],
+			"url": "https://useless-facts-two.vercel.app/",
+			"type": "web-app"
+		},
+		{
+			"name": "Marketing Metrics Chart App",
+			"description": "A Simple Chart App displays marketing metrics built with Vue.js, TailwindCSS, and Chart.js",
+			"highlights": [
+				"Fetch composable, reusable for fetching data from an external API.",
+				"Responsive design for desktop, tablet, and mobile devices.",
+				"Select different accounts and metrics",
+				"Infinite scroll animation."
+			],
+
+			"keywords": ["Vue.js", "TailwindCSS", "Chart.js"],
+			"url": "https://wask-case-two.vercel.app/",
+			"type": "web-app"
+		},
+		{
 			"name": "Flight Search App",
 			"description": "A simple Flight Search App built with Next.js, React, and TypeScript.",
 			"highlights": [
+				"Sample Search Data: departureAirport: Amsterdam, arrivalAirport: Frankfurt, departureTime: 12.12.2024, returnTime: 12.12.2024",
 				"Search flight based on for departure, arrival, and dates.",
 				"Select options for airports.",
-				"Sort flights by price, duration, departure, and arrival.",
-
-				"-Sample Search Data: departureAirport: Amsterdam, arrivalAirport: Frankfurt, departureTime: 12.12.2024, returnTime: 12.12.2024"
+				"Sort flights by price, duration, departure, and arrival."
 			],
 
 			"keywords": ["Next.js", "React", "TypeScript", "React Select"],
 			"url": "https://flight-search-app-ten.vercel.app/",
 			"type": "web-app"
-		},
+		}
+	],
+	"skills": [
 		{
-			"name": "Shipment CRUD Page",
-			"description": "A web-based tool for efficient management of shipment data.",
-			"highlights": [
-				"Built with React, Redux Toolkit, Chakra UI, and React Router",
-				"User-friendly interface for viewing, editing, and managing shipment details",
-				"Redux Toolkit for state management",
-				"Async data fetching using createAsyncThunk",
-				"React Router for defining routes and navigation"
-			],
-			"keywords": ["React", "Redux Toolkit", "Chakra UI", "React Router"],
-			"url": "https://shipment-app-olive.vercel.app/",
-			"type": "web-app"
-		},
-		{
-			"name": "Todo App",
-			"description": "A simple Todo application built with React, Chakra UI, and TypeScript.",
-			"highlights": [
-				"Create, edit, and delete tasks",
-				"Manage todo lists",
-				"Get a random todo suggestion"
-			],
-			"keywords": ["React", "Chakra UI", "TypeScript"],
-			"url": "https://todo-app-sage-nine.vercel.app/",
-			"type": "web-app"
+			"name": "Web Development",
+			"level": "",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"Javascript",
+				"React",
+				"VueJS",
+				"NextJS",
+				"TypeScript",
+				"React Native",
+				"Redux",
+				"TailwindCSS",
+				"Bootstrap",
+				"ChakraUI"
+			]
 		}
 	],
 	"meta": {
@@ -129,10 +134,10 @@
 		"canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
 		"themeOptions": {
 			"colors": {
-				"background": ["#191e23"],
-				"dimmed": ["#23282d"],
-				"primary": ["#fbfbfc"],
-				"secondary": ["#ccd0d4"],
+				"background": ["#fbfbfc"],
+				"dimmed": ["#e5e5e5"],
+				"primary": ["#191e23"],
+				"secondary": ["#23282d"],
 				"accent": ["#00a0d2"]
 			}
 		}
