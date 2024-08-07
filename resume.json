@@ -68,23 +68,22 @@
 	"projects": [
 		{
 			"name": "Useless Facts Viewer",
-			"description": "A simple single-page application uses Useless Facts API.",
+			"description": "A Single-page application uses Useless Facts API and Next.js App Router",
 			"highlights": [
 				"To demonstrate the functionality of the app feel free to sign in or here's an existed user credantials: Email: test@gmail.com Password: test123",
 				"Fact viewer; Fetches random facts from the Useless Facts API using Axios",
-				"User Authentication; Utilizes Supabase Auth for user creation",
+				"User Authentication; Utilizes Supabase server-side Auth for user creation",
 				"Save facts; Fact basket feature; enables users to add both random and today's facts to the basket. Saved facts feature; retrieves facts from the database, permanent storage."
 			],
 
-			"keywords": ["Next.js", "Axios", "Supabase"],
+			"keywords": ["Next.js App Router", "Axios", "Supabase"],
 			"url": "https://useless-facts-two.vercel.app/",
 			"type": "web-app"
 		},
 		{
 			"name": "Marketing Metrics Chart App",
-			"description": "A Simple Chart App displays marketing metrics built with Vue.js, TailwindCSS, and Chart.js",
+			"description": "A Chart App displays marketing metrics built with Vue.js, TailwindCSS, and Chart.js",
 			"highlights": [
-				"Fetch composable, reusable for fetching data from an external API.",
 				"Responsive design for desktop, tablet, and mobile devices.",
 				"Select different accounts and metrics",
 				"Infinite scroll animation."
@@ -96,15 +95,14 @@
 		},
 		{
 			"name": "Flight Search App",
-			"description": "A simple Flight Search App built with Next.js, React, and TypeScript.",
+			"description": "A Flight Search App built with Next.js, React, and TypeScript.",
 			"highlights": [
 				"Sample Search Data: departureAirport: Amsterdam, arrivalAirport: Frankfurt, departureTime: 12.12.2024, returnTime: 12.12.2024",
-				"Search flight based on for departure, arrival, and dates.",
-				"Select options for airports.",
+				"Search flight based on airports, departure, arrival, and dates",
 				"Sort flights by price, duration, departure, and arrival."
 			],
 
-			"keywords": ["Next.js", "React", "TypeScript", "React Select"],
+			"keywords": ["Next.js", "TypeScript"],
 			"url": "https://flight-search-app-ten.vercel.app/",
 			"type": "web-app"
 		}
@@ -123,9 +121,7 @@
 				"TypeScript",
 				"React Native",
 				"Redux",
-				"TailwindCSS",
-				"Bootstrap",
-				"ChakraUI"
+				"TailwindCSS"
 			]
 		}
 	],
